@@ -25,13 +25,30 @@ This project is a challenge of the two-page Mentor frontend site, where as one o
 
 ## What I learned
 
-```
+## CSS Variables
+- I could make improvements for the first time using CSS variables. 
+-Here's an adapted descriptio provided from chatGPT about this matter:
 
-```
+- CSS variables, also known as CSS custom properties, allow you to store and reuse values in your CSS code. They are a powerful tool that can help you improve your code readability and maintainability.
 
-```
+- Here's an example of how to define and use a CSS variable:
+``
+:root {
+--primary-color: #666CA3;
+}
 
-```
+button {
+background-color: var(--primary-color);
+border-radius: 2.8rem;
+padding: 1.67rem 2.8rem;
+}
+``
+
+- In the example above, we first define a CSS variable called `--primary-color` with the value of `#666CA3` in the `:root` selector. Then, we use the `var()` function to reference the variable in the `background-color` property of the `button` selector.
+
+- By using CSS variables, we can easily update the value of `--primary-color` in one place and it will be reflected in all the selectors that reference it.
+
+- Overall, CSS variables provide a convenient way to manage and reuse values in your CSS code, making it more organized and maintainable.
 
 ## Links
 
