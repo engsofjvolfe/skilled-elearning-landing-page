@@ -19,7 +19,7 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 
 This project is a challenge of the two-page Mentor frontend site, where as one of the objectives was to leave the layout adaptable for all types of screen (responsive) and i also used Leaflet JS to create an interactive location map with custom location pin.
 
-<a href="https://www.frontendmentor.io/challenges?difficulties=4"><img src="https://img.shields.io/badge/Difficulty-Junior-5f5668d0?style=for-the-badge&logo=frontendmentor" alt="Challenge Difficulty - Junior"></a>
+<a href="https://www.frontendmentor.io/challenges?difficulties=1"><img src="https://img.shields.io/badge/Difficulty-NEWBIE-14c2c8?style=for-the-badge&logo=frontendmentor" alt="Challenge Difficulty - Newbie"></a>
 
 &nbsp;
 
