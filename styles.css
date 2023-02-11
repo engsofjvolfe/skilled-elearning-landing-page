@@ -1,0 +1,268 @@
+/* CSS RESET */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/*Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* CSS RESET ENDING */
+
+/* CSS START */
+:root {
+    /* COLORS */
+    --deep-purple: #666ca3;
+    --dark-indigo: #13183f;
+    --slate-gray: #83869a;
+    --pink-red: #f74780;
+    --pale-pink: #ffa7c3;
+    --white: #ffffff;
+    --gradient-1: linear-gradient(to bottom, #f02aa6, #ff6f48);
+    --gradient-2: linear-gradient(to bottom, #4851ff, #f02aa6);
+
+    /* BUTTON */
+    --button-width: 10.4375rem;
+    --button-height: 3.5rem;
+    --button-border-radius: 1.75rem;
+
+    /* TYPOGRAPHY */
+    --font-size-56px: 3.5rem;
+    --font-size-51px: 3.1875rem;
+    --font-size-40px: 2.5rem;
+    --font-size-24px: 1.5rem;
+    --font-size-20px: 1.25rem;
+    --font-size-18px: 1.125rem;
+    --font-size-16px: 1rem;
+
+    --line-height-70px: 4.375rem;
+    --line-height-50px: 3.125rem;
+    --line-height-40px: 2.5rem;
+    --line-height-25px: 1.5625rem;
+
+    --font-weight-800: 800;
+    --font-weight-700: 700;
+    --font-weight-500: 500;
+}
+
+/* GENERAL SETTINGS FOR BUTTON */
+a>button {
+    width: 8.75rem;
+    color: var(--white);
+    text-align: center;
+    font-size: var(--font-size-16px);
+    line-height: var(--line-28px);
+}
+
+.button-black {
+    background-color: var(--dark-indigo);
+}
+
+.button-gradient-red {
+    color: var(--gradient-1);
+}
+
+.button-gradient-blue {
+    color: var(--gradient-2);
+}
+
+/* BUTTON HOVER STATE */
+.button-black:hover,
+.button-gradient-red:hover,
+.button-gradient-blue:hover {
+    cursor: pointer;
+}
+
+.button-black:hover {
+    background-color: var(--deep-purple);
+}
+
+.button-gradient-red {
+    background-color: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.button-gradient-blue:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+/* END BUTTON HOVER STATE */
+
+/* END GENERAL SETTINGS FOR BUTTON */
+
+/* 375px ~ 992px */
+/* GENERAL TYPOGRAPHY SETTINGS */
+/* general weights */
+h1,
+h2,
+h3 {
+    font-weight: var(--font-weight-800);
+}
+
+p {
+    font-weight: var(--font-weight-500);
+}
+
+a,
+button {
+    font-weight: var(--font-weight-700);
+}
+
+/* end general weights */
+
+h1 {
+    font-size: var(--font-size-40px);
+    line-height: var(--line-height-50px);
+    color: var(--dark-indigo);
+}
+
+h2 {
+    font-size: var(--font-size-24px);
+    line-height: var(--line-height-32px);
+    color: var(--white);
+}
+
+h3 {
+    font-size: var(--font-size-20px);
+    line-height: var(--line-height-25px);
+    color: var(--dark-indigo);
+}
+
+p {
+    font-size: var(--font-size-16px);
+    line-height: var(--line-26px);
+    color: var(--slate-gray);
+}
+
+a {
+    font-size: var(--font-size-16px);
+    line-height: var(--line-26px);
+    color: var(--pink-red);
+}
+
+/* END 375px ~ 992px */
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: var(--font-size-56px);
+        line-height: var(--line-height-70px);
+    }
+
+    h2 {
+        font-size: var(--font-size-32px);
+        line-height: var(--line-height-40px);
+    }
+
+    h3 {
+        font-size: var(--font-size-24px);
+        line-height: var(--line-height-30px);
+    }
+
+    p {
+        font-size: var(--font-size-18px);
+        line-height: var(--line-28px);
+    }
+
+    button {
+        width: 10.4375rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: var(--font-size-40px);
+        line-height: var(--line-height-50px);
+    }
+
+    h2 {
+        font-size: var(--font-size-24px);
+        line-height: var(--line-height-32px);
+    }
+
+    h3 {
+        font-size: var(--font-size-20px);
+        line-height: var(--line-height-25px);
+    }
+
+    p {
+        font-size: var(--font-size-18px);
+        line-height: var(--line-28px);
+    }
+}
+
+/* END GENERAL TYPOGRAPHY SETTINGS */
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
