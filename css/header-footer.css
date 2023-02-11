@@ -1,0 +1,96 @@
+@import url(styles.css);
+
+/* HEADER FOOTER COMMONS */
+.container-header,
+.container-footer {
+    width: 100%;
+    min-width: 21.4375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img,
+footer img {
+    width: 5.5625rem;
+}
+
+@media screen and (min-width: 48rem) {
+
+    header img,
+    footer img {
+        width: 7.125rem;
+    }
+}
+
+@media screen and (min-width: 69.4375rem) {
+
+    header img,
+    footer img {
+        width: 6.9481rem;
+    }
+}
+
+/* END HEADER FOOTER COMMONS */
+/* --------------------------------------------------------- */
+/* MOBILE HEADER */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* END MOBILE HEADER */
+
+/* TABLET HEADER */
+@media screen and (min-width: 48rem) {
+    header {
+        width: 43.0625rem;
+    }
+}
+
+/* END TABLET HEADER */
+
+/* DESKTOP HEADER */
+@media screen and (min-width: 69.4375rem) {
+
+    header,
+    footer {
+        width: 69.375rem;
+    }
+}
+
+/* END DESKTOP HEADER */
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+/* MOBILE FOOTER */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--dark-indigo);
+    padding: 2.25rem 1rem;
+}
+
+/* END MOBILE FOOTER */
+
+/* TABLET FOOTER */
+@media screen and (min-width: 48rem) {
+    .container-footer {
+        width: 43.0625rem;
+    }
+}
+
+/* END TABLET FOOTER */
+
+/* DESKTOP FOOTER */
+@media screen and (min-width: 69.4375rem) {
+    .container-footer {
+        width: 69.3256rem;
+    }
+}
+
+/* END DESKTOP HEADER */
