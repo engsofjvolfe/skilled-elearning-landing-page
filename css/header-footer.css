@@ -66,13 +66,12 @@ header {
 
 /* MOBILE FOOTER */
 footer {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    position: absolute;
     bottom: 0;
     background-color: var(--dark-indigo);
-    padding: 2.25rem 1rem;
+    padding: 2.25rem;
 }
 
 /* END MOBILE FOOTER */
