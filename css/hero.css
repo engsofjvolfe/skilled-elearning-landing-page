@@ -1,24 +1,59 @@
 @import url(styles.css);
 
+main,
+.container-main {
+  width: 100%;
+}
+
 #hero {
-    margin-top: 2.375rem;
+  margin-top: 2.375rem;
 }
 
 #hero p {
-    margin-top: 26px;
+  margin-top: 26px;
 }
 
 #hero button {
-    width: 10.4375rem;
-    margin-top: 1.5rem;
+  width: 10.4375rem;
+  margin-top: 1.5rem;
 }
 
 .container-hero-pic {
-    display: flex;
-    justify-content: center;
+  margin-top: 2.875rem;
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/image-hero-mobile.png);
+  padding-top: calc(100% / (327 / 301));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #hero img {
-    width: 20.4375rem;
-    margin-top: 2.875rem;
+  width: 20.4375rem;
+  margin-top: 2.875rem;
 }
+
+/* TABLET */
+@media screen and (min-width: 48rem) {
+  body {
+    background: url(../assets/image-hero-tablet.webp) no-repeat top -73px right -300px;
+  }
+
+  #hero {
+    margin-top: 6.1875rem;
+  }
+
+  .container-hero {
+    display: flex;
+  }
+
+  .container-hero-text {
+    width: 24.875rem;
+  }
+}
+
+/* END TABLET */
+
+/* DESKTOP */
+/* END  DESKTOP */

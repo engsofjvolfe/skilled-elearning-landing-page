@@ -45,7 +45,7 @@ header {
 /* TABLET HEADER */
 @media screen and (min-width: 48rem) {
     header {
-        width: 43.0625rem;
+        min-width: 43.0625rem;
     }
 }
 
