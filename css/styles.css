@@ -130,7 +130,7 @@ button {
 }
 
 .button-gradient-red {
-    background-color: var(--gradient-1);
+    background: var(--gradient-1);
 }
 
 .button-gradient-blue {
@@ -148,8 +148,8 @@ button {
     background-color: var(--deep-purple);
 }
 
-.button-gradient-red {
-    background-color: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+.button-gradient-red:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
         linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
 }
 
@@ -202,7 +202,7 @@ h3 {
 
 p {
     font-size: var(--font-size-16px);
-    line-height: var(--line-26px);
+    line-height: var(--line-height-26px);
     color: var(--slate-gray);
 }
 
@@ -278,11 +278,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
-    padding: 1.375rem 1rem;
+    padding: 1.375rem 1rem 0;
 }
 
-.container-body{
+.container-body {
     width: 100%;
     display: flex;
     flex-direction: column;
