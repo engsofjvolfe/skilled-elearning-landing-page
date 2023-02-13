@@ -16,7 +16,6 @@ footer img {
 }
 
 @media screen and (min-width: 48rem) {
-
     header img,
     footer img {
         width: 7.125rem;
@@ -24,7 +23,6 @@ footer img {
 }
 
 @media screen and (min-width: 69.4375rem) {
-
     header img,
     footer img {
         width: 6.9481rem;
@@ -45,7 +43,7 @@ header {
 /* TABLET HEADER */
 @media screen and (min-width: 48rem) {
     header {
-        min-width: 43.0625rem;
+        min-width: 689px;
     }
 }
 
@@ -53,10 +51,9 @@ header {
 
 /* DESKTOP HEADER */
 @media screen and (min-width: 69.4375rem) {
-
     header,
     footer {
-        width: 69.375rem;
+        max-width: 69.375rem;
     }
 }
 

@@ -29,11 +29,6 @@ main,
   background-size: cover;
 }
 
-#hero img {
-  width: 20.4375rem;
-  margin-top: 2.875rem;
-}
-
 /* TABLET */
 @media screen and (min-width: 48rem) {
   body {
@@ -56,4 +51,25 @@ main,
 /* END TABLET */
 
 /* DESKTOP */
+@media screen and (min-width: 69.4375rem) {
+  body {
+    background: url(../assets/image-hero-desktop.webp) no-repeat top -73px right -320px;
+  }
+
+  #hero {
+    margin-top: 11.125rem;
+  }
+
+  .container-hero-text {
+    width: 28.5625rem;
+  }
+
+  #hero p {
+    margin-top: 1.8125rem;
+  }
+
+  #hero button {
+    margin-top: 2.5rem;
+  }
+}
 /* END  DESKTOP */
