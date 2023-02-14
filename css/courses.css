@@ -3,7 +3,6 @@
 /* MOBILE */
 
 #courses {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +10,6 @@
 
 .container-courses {
     display: grid;
-    width: 100%;
     justify-content: center;
 }
 
@@ -97,7 +95,7 @@
     }
 
     .container-courses {
-        grid-template-columns: repeat(3, minmax(21.1875rem, 1fr));
+        grid-template-columns: 1fr 1fr 1fr;
         row-gap: 3.5rem;
         column-gap: 1.875rem;
     }
