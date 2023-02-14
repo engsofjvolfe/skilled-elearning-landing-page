@@ -11,6 +11,7 @@
 
 .container-courses {
     display: grid;
+    width: 100%;
 }
 
 .container-courses>h2 {
@@ -51,3 +52,45 @@
 }
 
 /* END MOBILE */
+
+/* TABLET */
+@media screen and (min-width: 48rem) {
+    #courses {
+        margin-top: 11.625rem;
+    }
+
+    .container-courses {
+        display: grid;
+        min-width: 43.0625rem;
+        grid-template-columns: repeat(2, minmax(21.1875rem, 1fr));
+    }
+
+    .container-courses>h2 {
+        padding: 3.5rem 1.3125rem 8.6875rem 2rem;
+        border-radius: 0.625rem;
+        align-self: flex-end;
+    }
+
+    .container-courses>h2,
+    .item-course {
+        border-radius: 0.625rem;
+        max-width: 21.1875rem;
+    }
+
+    .item-course:first-of-type {
+        margin-top: 0;
+
+    }
+
+    .item-course {
+        background-color: red;
+        padding: 3.5rem 1.375rem 2rem 2rem;
+    }
+}
+
+/* END TABLET */
+
+/* DESKTOP */
+@media screen and (min-width: 69.4375rem) {}
+
+/* END DESKTOP */
