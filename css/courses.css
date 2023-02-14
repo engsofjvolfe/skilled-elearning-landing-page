@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5rem;
 }
 
 .container-courses {
@@ -56,6 +57,7 @@
 @media screen and (min-width: 48rem) {
     #courses {
         margin-top: 11.625rem;
+        margin-bottom: 5.375rem;
     }
 
     .container-courses {
@@ -78,7 +80,6 @@
 
     .item-course:first-of-type {
         margin-top: 0;
-
     }
 
     .item-course {
@@ -92,6 +93,7 @@
 @media screen and (min-width: 69.4375rem) {
     #courses {
         margin-top: 15.625rem;
+        margin-bottom: 8.75rem;
     }
 
     .container-courses {
@@ -102,7 +104,6 @@
 
     .container-courses>h2 {
         padding: 4rem 2rem 8.625rem;
-
     }
 
     .container-courses>h2,
@@ -113,7 +114,6 @@
 
     .item-course:first-of-type {
         margin-top: 0;
-
     }
 
     .item-course {
@@ -121,6 +121,5 @@
         padding: 64px 32px 40px;
     }
 }
-
 
 /* END DESKTOP */
