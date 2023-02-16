@@ -26,16 +26,17 @@ This project is a challenge of the two-page Mentor frontend site, where as one o
 ## What I learned
 
 ## CSS Variables
-- I could make improvements for the first time using CSS variables. 
--Here's an adapted descriptio provided from chatGPT about this matter:
+
+- I could make improvements for the first time using CSS variables.
+  -Here's an adapted descriptio provided from chatGPT about this matter:
 
 - CSS variables, also known as CSS custom properties, allow you to store and reuse values in your CSS code. They are a powerful tool that can help you improve your code readability and maintainability.
 
 - Here's an example of how to define and use a CSS variable:
-``
-:root {
---primary-color: #666CA3;
-}
+  ``
+  :root {
+  --primary-color: #666CA3;
+  }
 
 button {
 background-color: var(--primary-color);
@@ -51,6 +52,7 @@ padding: 1.67rem 2.8rem;
 - Overall, CSS variables provide a convenient way to manage and reuse values in your CSS code, making it more organized and maintainable.
 
 ## Notes on learning
+
 - Next project ill start using what ive learnd from scss and try to improve my css positioning so i dont need to keep turning back and struggling with "imprudent paddings or margins"
 
 ## Links
@@ -77,7 +79,7 @@ padding: 1.67rem 2.8rem;
 
 <p align="left">
 
-  <img alt="" title="" src="" width="150px">
+  <img alt="mobile-image-skilled" title="" src="assets/mobile-screenshot.png" width="150px">
     <img alt="" title="#" src="" width="150px">
 
 </p>
@@ -85,7 +87,7 @@ padding: 1.67rem 2.8rem;
 ### Tablet - 768px
 
 <p align="left">
-   <img alt="" title="" src="" width="400px">
+   <img alt="tablet-image-skilled" title="" src="assets/tablet-screenshot.png" width="400px">
      <img alt="" title="#" src="" width="400px">
 
 </p>
@@ -93,7 +95,7 @@ padding: 1.67rem 2.8rem;
 ### Desktop - 1440px
 
 <p align="left">
-  <img alt="" title="#" src="" width="400px">
+  <img alt="desktop-img-skilled" title="#" src="assets/desktop-screenshot.png" width="400px">
     <img alt="" title="#" src="" width="400px">
 
 </p>
