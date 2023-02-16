@@ -50,6 +50,9 @@ padding: 1.67rem 2.8rem;
 
 - Overall, CSS variables provide a convenient way to manage and reuse values in your CSS code, making it more organized and maintainable.
 
+## Notes on learning
+- Next project ill start using what ive learnd from scss and try to improve my css positioning so i dont need to keep turning back and struggling with "imprudent paddings or margins"
+
 ## Links
 
 - [Preview Site]()
