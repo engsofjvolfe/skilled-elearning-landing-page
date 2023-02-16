@@ -43,8 +43,11 @@ main,
 
     main,
     .container-main {
-        justify-content: unset;
         align-items: unset;
+    }
+
+    .container-main{
+        padding: 0 3rem;
     }
 
     #hero {
